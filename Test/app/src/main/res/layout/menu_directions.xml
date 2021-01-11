@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    tools:context=".DirectionsActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="  \n
+        使用说明：\n
+ 1.搜索“学习测试”app,下载安装\n
+ 2.下载APP完成安装,打开程序点击“注册”，也可以点击“免登录”进入\n
+ 3.输入“学号”“密码”后,单击“注册”\n
+ 4.跳转登陆界面输入刚刚注册信息后单击“登录”进入\n
+ 5.进入主页面\n "/>
+</LinearLayout>

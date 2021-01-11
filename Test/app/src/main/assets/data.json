@@ -1,0 +1,252 @@
+[
+  {
+    "title": "下面关于BroadcastReceiver说法错误的是",
+    "rightAnswer": "1",
+    "answer": [
+      "注册BroadcastReceiver只能在AndroidManifest.xml中配置。",
+      "通过Context.registerReceiver可以注册BroadcastReceiver。",
+      "Activity的sendBroadcast()可以将Intent广播到BroadcastReceiver。",
+      "符合条件的BroadcastReceiver收到广播的Intent后会执行onReceive()方法。"
+    ]
+  },
+  {
+    "title": "在strings.xml文件中定义了一个字符串资源如下: Heze University其他资源文件可以通过来访问该字符串。",
+    "rightAnswer": "3",
+    "answer": [
+      "string/address",
+      "string.address",
+      "@string/address",
+      "@string.address"
+    ]
+  },
+  {
+    "title": "下面不属于Android平台的技术架",
+    "rightAnswer": "4",
+    "answer": [
+      "Linux内核",
+      "Android运行时环境",
+      "应用程序框架",
+      "Java虛拟机JVM"
+    ]
+  },
+  {
+    "title": "Android UI开发中，设置线性布局为垂直显示需修改的属性的",
+    "rightAnswer": "1",
+    "answer": [
+      "android:orientation=“vertical”",
+      " android:orientation=“horizontal”",
+      "android:layout_centerHorizontal=“true”",
+      "android:layout_centerVertical=“true”"
+    ]
+  },
+  {
+    "title": "在Actity的生命周期中，创建Activity和销毁Activity时被调用的函数是?",
+    "rightAnswer": "1",
+    "answer": [
+      "onCreate和onDestroy",
+      "onStart和onStop",
+      "onCreate和onStop",
+      "onStart和onDestroy"
+    ]
+  },
+  {
+    "title": "onActivityResult()方法有三个参数，其中（）表示在返回数据时传入结果码",
+    "rightAnswer": "2",
+    "answer": [
+      "requestCode",
+      "resultCode",
+      "data",
+      "result"
+    ]
+  },
+  {
+    "title": " Android程序不能直接访问的资源(原生文件)存放在目录下。",
+    "rightAnswer": "3",
+    "answer": [
+      "src目录",
+      "res目录",
+      "assets目录",
+      "res/raw目录"
+    ]
+  },
+  {
+    "title": "下列方法中,用于发送一条有序广播的是",
+    "rightAnswer": "2",
+    "answer": [
+      "startBroadcastReceiver()",
+      "sendOrderedBroadcast()",
+      "sendBroadcast()",
+      "sendReceiver()"
+    ]
+  },
+  {
+    "title": "在清单文件中注册NEW_OUTGOING_CALL,代码中获取到广播事件的方法是( ).",
+    "rightAnswer": "4",
+    "answer": [
+      " getAction()",
+      " getActionCall()",
+      " getMethod()",
+      " getOutCall()"
+    ]
+  },
+  {
+    "title": "下列命令中,属于SQLite下的命令是",
+    "rightAnswer": "2",
+    "answer": [
+      "shell",
+      "push",
+      "quit",
+      "keytool"
+    ]
+  },
+  {
+    "title": "广播接收者需要在清单文件配置( )节点",
+    "rightAnswer": "1",
+    "answer": [
+      "receiver",
+      "broadReceiver",
+      "service",
+      "contentProvider"
+    ]
+  },
+  {
+    "title": ".下列关于 ListView 使用的描述中，不正确的是（ ）",
+    "rightAnswer": "2",
+    "answer": [
+      " 要使用 ListView，则必须使用 Adapter 进行数据适配",
+      "要使用 ListView，该布局文件对应的 Activity 必须继承 ListActivity",
+      "ListView 中每一项的视图布局既可以使用内置的布局，也可以使用自定义的布局方式",
+      " 要实现 ListView 的条目点击，就需要实现 OnItemClickListener 接口"
+    ]
+  },
+  {
+    "title": "在相对布局文件中，把控件与另外一个控件的下边使用的属性是",
+    "rightAnswer": "3",
+    "answer": [
+      "layout_above",
+      "padding",
+      "layout_below",
+      "layout_margin"
+    ]
+  },
+  {
+    "title": "当观察到的Uri代表的数据发生变化时，会触发ContentObserver中的（）方法。",
+    "rightAnswer": "3",
+    "answer": [
+      "onCreate",
+      "notifyChange",
+      "onChange",
+      "以上说法都不对"
+    ]
+  },
+  {
+    "title": "可以在Activity中得到ContentResolver实例对象的方法是",
+    "rightAnswer": "2",
+    "answer": [
+      "new ContentResolver()",
+      "getContentResolver()",
+      "newInstance()",
+      "ContentUris.newInstance()"
+    ]
+  },
+  {
+    "title": "Android中定义广播接收者要继承",
+    "rightAnswer": "1",
+    "answer": [
+      "BroadcastReceiver",
+      "BroadCast",
+      "Receiver",
+      "BroadcastReboot"
+    ]
+  },
+  {
+    "title": "下面关于android.uril.Log类提供的静态方法说法错误的是",
+    "rightAnswer": "3",
+    "answer": [
+      "d()输出debug调试",
+      "i()一般提示性的消息",
+      "e()输出警告信息",
+      "v()输出所有消息"
+    ]
+  },
+  {
+    "title": "以下关于Service的说法，不正确的是（）。",
+    "rightAnswer": "2",
+    "answer": [
+      " Service是没有用户可见的界面，不与用户交互",
+      "Service可以通过 Context.startService()来启动",
+      "每个Service class可以在AndroidManifest.xml文件中有相应的< service>声明，也可以不声明直接使用",
+      "Service可以通过Context.bindService()来启动"
+    ]
+  },
+  {
+    "title": "在Activity的生命周期中,当Activity处于栈顶时，此时处于哪种状态",
+    "rightAnswer": "4",
+    "answer": [
+      "活动",
+      "暂停",
+      "停止",
+      "销毁"
+    ]
+  },
+  {
+    "title": "Android项目中启动时最先加载的是AndroidManifest.xml文件，如果有多个Activity,以下哪个属性决定了该Activity最先被加载?",
+    "rightAnswer": "3",
+    "answer": [
+      "android.intent.action.LAUNCH",
+      "android.intent.action.ACTIVITY",
+      " android.intent. action.MAIN",
+      "android.intent.action.VIEW"
+    ]
+  },
+  {
+    "title": "如果需要创建一一个字符串资源,需要将字符串放在res\\values的那个文件中?",
+    "rightAnswer": "2",
+    "answer": [
+      "value.xml",
+      "strings.xml",
+      "dimens.xml",
+      "styles.xml"
+    ]
+  },
+  {
+    "title": "启动系统相机使用的action是",
+    "rightAnswer": "1",
+    "answer": [
+      "android.media.action.IMAGE_CAPTURE",
+      " android.media.action. IMAGES_CAPTURE",
+      " android.media.action. VIDEO_CAPTURE",
+      "android.media.action.VIDEOS_CAPTURE"
+    ]
+  },
+  {
+    "title": "在下列选项中, 可以获得Intent中String类型参数的方法是",
+    "rightAnswer": "2",
+    "answer": [
+      "getExtraString(string)",
+      "getStringExtra(string)",
+      "getStringPut(string)",
+      "getPutString(string)"
+    ]
+  },
+  {
+    "title": "startActivityForResult()方法接收两个参数,第一个是Intent,第二个是",
+    "rightAnswer": "3",
+    "answer": [
+      "resultCode",
+      "requestCode",
+      "请求码",
+      "data"
+    ]
+  },
+  {
+    "title": "单选按钮<RadioButton/>定义时需要设定默人迭項是<RadioButton android:id=\" @+id/XXX\"  android:layout_width=\"wrap_ content\"  android:layout_ height=' 'wrap_ _content\",  android:text= \"XXX\" /默认选项/>",
+    "rightAnswer": "2",
+    "answer": [
+      "android:textColor=\"XXX\"",
+      "android:checked= \"true\"",
+      "android:textSize=' 'XXX\"",
+      "android:hit= \"XXX\""
+    ]
+  }
+]
